@@ -40,7 +40,7 @@ defmodule PhoenixSwagger.Mixfile do
     [
         {:poison, "~> 1.5 or ~> 2.0 or ~> 3.0"},
         {:ex_json_schema, "~> 0.5.1", optional: :true},
-        {:plug, "~> 1.1"},
+        {:plug, "~> 1.6"},
         {:ex_doc, "~> 0.14", only: :dev, runtime: false}
     ]
   end
